@@ -1,0 +1,54 @@
+[
+    {
+      "time": "10:30 AM - 11:30 AM",
+      "classes": [
+        {
+          "className": "How to make the most out of SPARC",
+          "eligibleRollNumbers": ["4618", "5222", "4058", "9022"]
+        },
+        {
+          "className": "Prediction Markets",
+          "eligibleRollNumbers": ["3292", "5474", "4834", "2190"]
+        },
+        {
+          "className": "How to control your emotions",
+          "eligibleRollNumbers": ["9763", "1249", "8952", "2895"]
+        }
+      ]
+    },
+    {
+      "time": "11:30 AM - 12:30 PM",
+      "classes": [
+        {
+          "className": "How to make the most out of SPARC",
+          "eligibleRollNumbers": ["3292", "5474", "2895", "1249"]
+        },
+        {
+          "className": "Prediction Markets",
+          "eligibleRollNumbers": ["4618", "4058", "8952", "9763"]
+        },
+        {
+          "className": "How to control your emotions",
+          "eligibleRollNumbers": ["5222", "9022", "4834", "2190"]
+        }
+      ]
+    },
+    {
+        "time": "12:30 PM - 1:30 PM",
+        "classes": [
+            {
+                "className":"How to make the most out of SPARC",
+                "eligibleRollNumbers":["8952", "9763", "2190", "4834"]
+            },
+            {
+                "className":"Prediction Markets",
+                "eligibleRollNumbers":["5222","2895","9022","1249"]
+            },
+            {
+                "className": "How to control your emotions",
+                "eligibleRollNumbers":["4618", "3292", "5474", "4058"]
+            }
+        ]
+    }
+  ]
+  
