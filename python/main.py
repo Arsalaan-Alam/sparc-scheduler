@@ -37,7 +37,7 @@ while True:
 json_data = json.dumps(schedule, indent=4)
 
 # Save the JSON data to a file
-with open('schedule.json', 'w') as file:
+with open('../schedule.json', 'w') as file:
     file.write(json_data)
 
 print("JSON data has been generated and saved to 'schedule.json'.")
