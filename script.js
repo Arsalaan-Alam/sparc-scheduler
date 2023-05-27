@@ -12,11 +12,7 @@ document.getElementById("scheduleForm").addEventListener("submit", function(even
         scheduleDisplay.innerHTML = ""; // Clear previous schedule display
   
         var found = false;
-  
-        // Create the table element
         var table = document.createElement("table");
-  
-        // Create the table headers
         var tableHeaderRow = document.createElement("tr");
         var classNameHeader = document.createElement("th");
         classNameHeader.textContent = "Class Name";
@@ -37,27 +33,19 @@ document.getElementById("scheduleForm").addEventListener("submit", function(even
   
             if (eligibleRollNumbers.includes(studentID)) {
               found = true;
-  
-              // Create a table row for each class
               var tableRow = document.createElement("tr");
-  
-              // Create table cells for class name and class time
               var classNameCell = document.createElement("td");
               classNameCell.textContent = className;
               var classTimeCell = document.createElement("td");
               classTimeCell.textContent = classTime;
               classTimeCell.className = "timec"
-  
               tableRow.appendChild(classNameCell);
               tableRow.appendChild(classTimeCell);
-  
-              // Append the row to the table
               table.appendChild(tableRow);
             }
           }
         }
   
-        // Append the table to the schedule display
         scheduleDisplay.appendChild(table);
   
         if (!found) {
