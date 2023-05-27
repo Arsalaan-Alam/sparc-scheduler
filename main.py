@@ -1,3 +1,4 @@
+# code to convert manual input of classes and students into JSON structure.
 import json
 
 schedule = []
